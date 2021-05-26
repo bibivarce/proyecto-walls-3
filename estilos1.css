@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+h1 {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+           font-size:40px; color:#F69;}
+
+.unooo {background:url(camisa.jpg);
+         background-size:cover;
+         background-attachment:fixed;} 
+		 
+.fondito {background:url(fondito.jpg);
+         background-size:auto;} 
+			 
+ titulo{font-family:"rainbow Universe";
+      font-size:36px;
+	   color:#000}
+ h2{font-family:"rainbow Universe";
+      font-size:56px;
+	   color:#000}
+	   
+letras {font-family:"Times New Roman", Times, serif;
+       font-size:16px;
+	   background-color:#FFF;
+	   color:#900;
+	   border:dotted #F90;
+	   text-shadow:8px 8px 4px #000;}
+importante {font-family:"chinese rocks rg";
+           font-size:36px; color:#600;
+		    text-align:center;} 
+
+.polaroid {backgroud-color:white;
+        padding:10px 10px 50px 10px;
+        border:1px solid #BFBFBF;
+	    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8); animation-duration:5s; animation-name:frio; animation-iteration-count:3;}
+@keyframes frio {
+
+from { filter:blur(8px); }
+to { filter:blur(0px); }
+}
+	
+.arcoiris {box-shadow:rgb(05,91,255) 0px 0px 0px 3px,
+         rgb(255,102,0) 0px 0px 0px 6px,
+		 rgb(255,255,51)0px 0px 0px 9px,
+         rgb(255,51,0) 0px 0px 0px 12px,
+		 rgb(255,0,102)0px 0px 0px 15px;}
+num{ font-family:"Comic Sans MS", cursive; 
+      font-size:36px; }
+	  
+.imagen:hover{ border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #000;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);}
